@@ -1,6 +1,7 @@
 package co.codingnomads.spring.itemmicroservice.controllers;
 
 import co.codingnomads.spring.itemmicroservice.models.Item;
+import co.codingnomads.spring.itemmicroservice.services.ItemService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
